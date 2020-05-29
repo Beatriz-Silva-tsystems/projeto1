@@ -1,0 +1,71 @@
+@import "../../scss/colors";
+
+
+.btn-adicionar{
+    color: white;
+    background-color: #28a745;
+    margin: 100px 5px 5px 70px ;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-exportar{
+    color: white;
+    background-color: #41bf7f;
+    margin-top: 100px;
+    margin-left: 5px;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-editar{
+    color: white;
+    background-color: #007aff;
+    margin-right: 5px;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-search{
+    color: white;
+    background-color: #e30073 ; 
+    margin-right: 5px;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-bloquear{
+    color: white;
+    background-color: #ff0000;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.input-quantidade{
+    width: 80px;
+    height: 30px;
+    margin: 5px 0px 10px 70px ;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.246);
+
+}
+
+.input-busca{
+    float: right;
+    border: 1px solid rgba(0, 0, 0, 0.246);
+    border-radius: 3px;
+    margin-right: 70px;
+    margin-bottom: 5px;
+    height: 30px;
+    
+}
+
+
+
+
+   
