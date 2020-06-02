@@ -1,5 +1,5 @@
 <section>
-    <button class="btn-adicionar"><i class="fas fa-plus"></i></button>
+    <button class="btn-adicionar" routerLink="/novo"><i class="fas fa-plus"></i></button>
     <button class="btn-exportar"><i class="fas fa-file-excel"></i></button>
     <div>
       <input type="number" min="10" class="input-quantidade">
@@ -21,13 +21,13 @@
             </thead>
 
             <tbody  >  
-             <tr>
-               <td>231</td>
-               <td>iphone xs</td>
-               <td>123</td>
-               <td>25/03/2019</td>
+             <tr *ngFor = "let produto of produtos">
+               <td>{{produto.id}}</td>
+               <td>{{produto.description}}</td>
+               <td>{{produto.quantity}}</td>
+               <td>{{produto.createdAt}}</td>
                <td style="text-align: center;">
-                <button class="btn-editar"><i class="fas fa-edit"></i></button>
+                <button class="btn-editar" routerLink="/editar"><i class="fas fa-edit"></i></button>
                 <button class="btn-search"><i class="fas fa-search"></i></button>
                 <button class="btn-bloquear"><i class="fas fa-lock"></i></button>
                </td>
